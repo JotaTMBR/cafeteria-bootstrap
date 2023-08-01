@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Início da barra de navegação -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:#000000 !important" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/cheirinbao.png" alt="Logo" width="40" height="40" class="d-inline-block">
+            Cheirin Bão
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="cardapio.html">Cardápio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Fim da barra de navegação -->
+    <header>
+        <!-- Início do Carousel -->
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="img/carousel1.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carousel2.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carousel3.png" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/carousel4.png
+                " class="d-block w-100" alt="...">
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!-- Fim do Carousel -->
+
+    </header>
+
+    <main class="container">
+      <!-- Início do Formulário -->
+
+      <div class="card" style="margin-top: 20px; border: 0;">
+        <div class="row ">
+          <div class="col-6" style="margin-top: 20px;">
+            <img src="img/tomarcafe2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-6">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Contato</h5>
+
+              <div class="mb-3">
+                <div class="row">
+                  <div class="col" style="margin-top: 10px;">
+                    <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                  </div>
+                  <div class="col" style="margin-top: 10px;">
+                    <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail">
+              </div>
+
+              <div class="mb-3">
+                <input class="form-control" type="text" placeholder="Telefone" aria-label="telefone">
+              </div>
+
+              <div class="mb-3">
+                <select class="form-select" aria-label="selecione um assunto">
+                  <option selected>Selecione um Assunto</option>
+                  <option value="1">Dúvida</option>
+                  <option value="2">Elogio</option>
+                  <option value="3">Reclamação</option>
+                  <option value="4">Devolução</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <input class="form-control" type="file" id="formFile">
+              </div>
+
+              <div class="col-12" style="text-align: center;">
+                <button type="submit" class="btn btn-primary" style="width: 25%;">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim do Formulário -->
+
+      <!-- Início do Mapa -->
+        <div class="col-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.4003703690123!2d-9.131671124014646!3d38.75452017175493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933b49bbca3c7%3A0x6c3236dbe0bde0f5!2sAv.%20Jos%C3%A9%20R%C3%A9gio%2C%20Lisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1690888872917!5m2!1spt-BR!2sbr" width="1100" height="600" style="border:0;margin-top: 20px;width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="referrer-when-downgrade"></iframe> 
+        </div>
+      <!-- Fim do Mapa -->
+    </main>
+
+    <footer>
+
+        <!-- Início do rodapé -->
+        <div class="card text-center" style="background-color: black !important" data-bs-theme="dark">
+            <div class="card-header">
+              Rua Padre Almeida de Oliveira, 173 - São Paulo - SP - Brasil
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores amet impedit, voluptatem assumenda blanditiis adipisci dicta qui, doloremque placeat explicabo, rem fugiat laudantium excepturi officiis reprehenderit reiciendis unde harum ea. With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-Danger">Confira Nosso Cardápio</a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              <a href="https://facebook.com">Facebook</a>&nbsp;&nbsp;
+              <a href="https://instagram.com">Instagram</a>&nbsp;&nbsp;
+              <a href="https://youtube.com">Youtube</a>&nbsp;&nbsp;
+            </div>
+          </div>
+        <!-- Fim do rodapé -->
+
+
+
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
